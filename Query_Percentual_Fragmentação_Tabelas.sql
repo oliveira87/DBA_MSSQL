@@ -3,7 +3,7 @@
 
  Query para verificar percentual de fragmentação das tabelas
 *************************************************************/
-USE AdventureWorks
+USE AdventureWorks 'Trocar para o nome do seu BD'
 GO
 SELECT
     DB_NAME() AS Banco,
